@@ -1,1 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,300&family=Quicksand:wght@300;500&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+#inicio .jumbotron {
+    background-image: url('../img/jumbotron.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: #ffffff;
+}
+#inicio hr {
+    height: 0.1rem;
+    background-color: #ffffff;
+}
+h1 {
+    font-weight: 600;
+}
